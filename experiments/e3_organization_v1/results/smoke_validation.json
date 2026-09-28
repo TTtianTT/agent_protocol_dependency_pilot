@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "execution_hash": "7ff5685f5d43838b10f483c0ee4b655068020f50538c1b12e4e216e7f0fd5e62",
+  "audit": {
+    "passed": true,
+    "split": "smoke",
+    "planned_conditions": 40,
+    "completed_conditions": 40,
+    "coverage": 1.0,
+    "worlds": 4,
+    "queries": 8,
+    "actual_calls": 44,
+    "role_calls": {
+      "A": 4,
+      "B": 4,
+      "C": 4,
+      "D": 32
+    },
+    "parse_failures": 0,
+    "length_stops": 0,
+    "max_input_tokens": 1333,
+    "max_output_tokens": 222,
+    "first_request_time": 1790583579.9704165,
+    "freeze_time": 1790583449.3240602,
+    "execution_hash": "7ff5685f5d43838b10f483c0ee4b655068020f50538c1b12e4e216e7f0fd5e62",
+    "exact_flatten_equivalence": true,
+    "unchanged_direct_edges": true,
+    "no_hidden_context": true
+  },
+  "baseline_answer_accuracy": 0.75,
+  "baseline_required_joint": 0.25,
+  "sort_changed_worlds": 0,
+  "multi_record_group_worlds": 4,
+  "time": 1790583628.0351632
+}

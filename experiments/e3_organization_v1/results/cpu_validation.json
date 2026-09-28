@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "worlds": 104,
+  "formal_worlds": 100,
+  "formal_conditions": 1000,
+  "checks": [
+    "world separation",
+    "oracle and alternative support sets",
+    "stable order and exact multiset",
+    "duplicate preservation",
+    "null singleton groups",
+    "empty evidence",
+    "no input mutation",
+    "no added facts or IDs",
+    "no answer in P1/P2/P3"
+  ],
+  "execution_hash": "7ff5685f5d43838b10f483c0ee4b655068020f50538c1b12e4e216e7f0fd5e62"
+}

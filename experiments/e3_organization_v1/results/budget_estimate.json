@@ -1,0 +1,21 @@
+{
+  "recorded_before_formal_at": 1790583660.0457587,
+  "smoke_job": 1715,
+  "smoke_gpu_seconds": 108,
+  "actual_smoke_calls": 44,
+  "smoke_generated_tokens": 3046,
+  "smoke_batch_inference_seconds": 22.52924680709839,
+  "smoke_request_rate_excluding_startup": 1.9530169107178819,
+  "smoke_output_token_rate_excluding_startup": 135.20203431924247,
+  "estimated_formal_seconds_same_request_mix": 751.107590675354,
+  "estimated_formal_generated_tokens_same_mix": 89995.45454545454,
+  "formal_logical_calls_upper_bound": 1300,
+  "total_calls_upper_bound_including_observed_smoke": 1344,
+  "worst_case_generated_tokens_including_observed_smoke": 833046,
+  "budget_limits": {
+    "requests": 1500,
+    "generated_tokens": 2000000,
+    "gpu_seconds": 3600
+  },
+  "warning": "Smoke is tiny; throughput estimate is not a runtime guarantee. Retain all 100 formal worlds."
+}

@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "scope": "independent smoke synthetic responses; no formal outcomes",
+  "checks": [
+    "multiple legal source sets",
+    "grouped/flat scoring equivalence",
+    "missing project/code distinguished",
+    "cross-entity citation mismatch",
+    "unknown source"
+  ]
+}

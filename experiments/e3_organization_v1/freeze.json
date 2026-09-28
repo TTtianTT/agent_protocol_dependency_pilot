@@ -1,0 +1,27 @@
+{
+  "time": 1790583449.3240602,
+  "execution_hash": "7ff5685f5d43838b10f483c0ee4b655068020f50538c1b12e4e216e7f0fd5e62",
+  "parent_execution_hash": "0cff181f00940ac1ded52390b4d1640a6e7da57459973a2da15ec2249d31fd53",
+  "model_hash": "a77577d5631ab819026fc32ffad4916362c592ccdb4c7b6219e6e9f8914e9aa2",
+  "files": {
+    "experiments/e3_organization_v1/data/worlds.jsonl": "47929a67e30a7c8a1e0a97a01c5db9fad3985368f27555a789583615ccdbe2a4",
+    "experiments/e3_organization_v1/data/gold.jsonl": "5aefd8f7e8bee4634e288bc8e6f84b7fb5e6528a2cb1dd7caedfc275b2baa978",
+    "experiments/e3_organization_v1/data/queries.jsonl": "cb74dccf7dc98c22b65e17ea6cd1feaf345b50d842e1d488d3c596e7f0094911",
+    "experiments/e3_organization_v1/data/plan.jsonl": "f6d282f5eed5eee508e52bd06fd765ba9fb03fbf8359315676508c4ba640f7d9",
+    "experiments/e3_organization_v1/SPEC.md": "c57ba3896371a3cfc87f6d2ab7f2ece6138313e7e10dd48c54b65b0f8d8cde01",
+    "experiments/e3_organization_v1/config.json": "e4fa1bbc3b093020957878cd9ed843f5d83b3b75a5b3328adc291981157ce913",
+    "configs/pilot.yaml": "22e99f073f795d57fdc2dda8120240fd5e69b2e7e1ee78ff6245854b27dc9522",
+    "configs/model_identity.json": "71469226b2e2d93882dbbe8b00ee6674886de3a42349f01977d23051294f031f",
+    "prompts/A.txt": "f0006f354c91aad4ce5836c238f2e2c5d8ed135f9f6b0d0a4766f0030f866bda",
+    "prompts/C.txt": "625d91b75675f8e572a821815ffdf5c32583695996a3e573a84cf0acbfe583c0",
+    "prompts/D.txt": "1b5cd6780e22b93730e50ef5e6b0ce97c82a456e274642bdb616c24759b26c86",
+    "prompts/B.txt": "f0006f354c91aad4ce5836c238f2e2c5d8ed135f9f6b0d0a4766f0030f866bda"
+  },
+  "previous_data_hashes": {
+    "data/worlds.jsonl": "5a2efae208570d3368a75022ff4c3dae2dfea7ec903cbcd08745cc759a5740d6",
+    "experiments/e3_mechanism_v1/data/worlds.jsonl": "c2afbe8a48a44ce4fc81afbceb3485f6429e3329c573d5e4a7ed5c86e95e5442"
+  },
+  "formal_worlds": 100,
+  "formal_conditions": 1000,
+  "request_upper_bound": 1352
+}

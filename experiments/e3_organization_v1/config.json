@@ -1,0 +1,1 @@
+{"seed":314159265,"worlds":100,"smoke_worlds":4,"bootstrap":5000,"bootstrap_seed":92611,"max_requests":1500,"max_generated_tokens":2000000,"max_gpu_seconds":3600,"primary":"P3-P2 joint_success under evidence-required demand","model":"same Qwen3.5-4B","protocol_order":["P0","P1","P2","P3","P4"]}

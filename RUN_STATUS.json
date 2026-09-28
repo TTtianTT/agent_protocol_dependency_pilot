@@ -1,0 +1,16 @@
+{
+  "status": "complete",
+  "worlds": 200,
+  "queries": 400,
+  "conditions": 3600,
+  "usage": {
+    "requests": 5511,
+    "generated_tokens": 371205,
+    "gpu_seconds": 1737,
+    "accounting_note": "Final Slurm accounting: 1704-1708 689 s + 1710 1046 s + discovery 2 s; single GPU",
+    "cache_hits": 440,
+    "job_id": "1710",
+    "pid": 2408204,
+    "gpu_seconds_engine_before_final_reconciliation": 1731.4784331321716
+  }
+}

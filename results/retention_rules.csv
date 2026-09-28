@@ -1,0 +1,5 @@
+condition,retain,n_worlds,n_queries,removal_delta_L,ci_low,ci_high,scope
+redundant_evidence:demand1,B source evidence through C or direct e5,20,20,0.3,0.1,0.5,"predefined rule; descriptive all splits, not global necessity"
+qualifier:demand1,required year through upstream A or direct A,40,40,0.1,0.025,0.2,"predefined rule; descriptive all splits, not global necessity"
+entity_join:demand1,A identity association through upstream or direct A,40,40,0.6,0.45,0.75,"predefined rule; descriptive all splits, not global necessity"
+deferred_disambiguation:demand1,all local candidates or a direct evidence alternative,40,40,0.05,-0.1,0.175,"predefined rule; descriptive all splits, not global necessity"

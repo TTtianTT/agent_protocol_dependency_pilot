@@ -1,0 +1,37 @@
+{
+  "time": 1790576439.4156048,
+  "execution_code_hash": "0cff181f00940ac1ded52390b4d1640a6e7da57459973a2da15ec2249d31fd53",
+  "files": {
+    "data/worlds.jsonl": "5a2efae208570d3368a75022ff4c3dae2dfea7ec903cbcd08745cc759a5740d6",
+    "data/intervention_manifest.json": "1bffcb6aefc4c433f3c4675ad4da02eda12094a75a0cbd8a8237706336f0193a",
+    "data/split_manifest.json": "c020b1d8f30702fe8a024ff5aed970db5c4a8eb20d99c037acf5530717cf270b",
+    "data/gold.jsonl": "900d9ec9b2f0b3560ada5f014798c3932549f3b21ed59d4bb254659721ba412f",
+    "data/pair_applicability_preregistered.json": "766a4ac04e1d364786d515d47b0a1341260eb70705c51989455984104ec093ed",
+    "data/queries.jsonl": "55368d6267103a3aec0ddc7ebf86969a7005fad96ae056f9c09ba25fd0408130",
+    "prompts/A.txt": "f0006f354c91aad4ce5836c238f2e2c5d8ed135f9f6b0d0a4766f0030f866bda",
+    "prompts/C.txt": "625d91b75675f8e572a821815ffdf5c32583695996a3e573a84cf0acbfe583c0",
+    "prompts/D.txt": "1b5cd6780e22b93730e50ef5e6b0ce97c82a456e274642bdb616c24759b26c86",
+    "prompts/B.txt": "f0006f354c91aad4ce5836c238f2e2c5d8ed135f9f6b0d0a4766f0030f866bda",
+    "configs/model_download.json": "85b2701510f35303f5fdeee2a47bad90d3542d3f0e19ae0e4a0c05821009e7a4",
+    "configs/model_identity.json": "71469226b2e2d93882dbbe8b00ee6674886de3a42349f01977d23051294f031f",
+    "configs/pilot.yaml": "22e99f073f795d57fdc2dda8120240fd5e69b2e7e1ee78ff6245854b27dc9522"
+  },
+  "plan_conditions": 3600,
+  "request_upper_bound": 8004,
+  "smoke": {
+    "joint_success": 0.75,
+    "answer_accuracy": 0.8,
+    "parse_success": 1.0,
+    "queries": 40,
+    "usage": {
+      "requests": 384,
+      "generated_tokens": 35575,
+      "gpu_seconds": 526.023001909256
+    }
+  },
+  "smoke_inference_seconds": 34.2799768447876,
+  "smoke_generated_tokens": 17515,
+  "estimated_inference_seconds_conservative": 1307.6973819732666,
+  "estimate_not_guarantee": true,
+  "scope": "200 formal worlds / 400 queries / 3600 conditions; no scaling"
+}

@@ -1,0 +1,16 @@
+{
+  "jobs_elapsed_seconds": {
+    "1704": 248,
+    "1705": 99,
+    "1706": 88,
+    "1707": 146,
+    "1708": 108,
+    "1710": 1046
+  },
+  "probe_seconds": 2,
+  "total_gpu_seconds": 1737,
+  "total_requests": 5511,
+  "successful_nodes": 5447,
+  "infrastructure_failed_requests": 64,
+  "generated_tokens": 371205
+}

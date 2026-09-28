@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "worlds": 220,
+  "queries": 440,
+  "seen_pairs": 8,
+  "held_pairs": 8,
+  "planned_formal_conditions": 3600
+}

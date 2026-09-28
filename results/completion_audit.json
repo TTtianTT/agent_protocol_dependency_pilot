@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "planned_conditions": 3600,
+  "completed_conditions": 3600,
+  "queries": 400,
+  "worlds": 200,
+  "test_predictions": 1100,
+  "node_requests_completed": 5127,
+  "code_hash": "0cff181f00940ac1ded52390b4d1640a6e7da57459973a2da15ec2249d31fd53",
+  "freeze_time": 1790577290.0384436,
+  "first_test_modified_time": 1790577294.5544198,
+  "model_identity": "dc07db1e4b4dad96e400da4f50b3e283196dcfa489b96d7e5f74d8578a51ecfe"
+}

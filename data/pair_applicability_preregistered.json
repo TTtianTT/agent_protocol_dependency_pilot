@@ -1,0 +1,114 @@
+{
+  "link3+ren1": {
+    "group": "seen_pair",
+    "worlds": 60,
+    "applicable_worlds": 60,
+    "queries": 120,
+    "applicable_queries": 120
+  },
+  "ev4+ren2": {
+    "group": "seen_pair",
+    "worlds": 60,
+    "applicable_worlds": 60,
+    "queries": 120,
+    "applicable_queries": 120
+  },
+  "ren1+ren2": {
+    "group": "held_pair",
+    "worlds": 15,
+    "applicable_worlds": 15,
+    "queries": 30,
+    "applicable_queries": 30
+  },
+  "ev4+link3": {
+    "group": "held_pair",
+    "worlds": 15,
+    "applicable_worlds": 15,
+    "queries": 30,
+    "applicable_queries": 30
+  },
+  "ev4+jk1": {
+    "group": "seen_pair",
+    "worlds": 40,
+    "applicable_worlds": 40,
+    "queries": 80,
+    "applicable_queries": 80
+  },
+  "ev5+jk2": {
+    "group": "seen_pair",
+    "worlds": 40,
+    "applicable_worlds": 40,
+    "queries": 80,
+    "applicable_queries": 80
+  },
+  "ev5+jk1": {
+    "group": "held_pair",
+    "worlds": 10,
+    "applicable_worlds": 10,
+    "queries": 20,
+    "applicable_queries": 20
+  },
+  "ev4+jk2": {
+    "group": "held_pair",
+    "worlds": 10,
+    "applicable_worlds": 10,
+    "queries": 20,
+    "applicable_queries": 20
+  },
+  "q1+q4": {
+    "group": "seen_pair",
+    "worlds": 60,
+    "applicable_worlds": 40,
+    "queries": 120,
+    "applicable_queries": 80
+  },
+  "ev3+ev5": {
+    "group": "seen_pair",
+    "worlds": 60,
+    "applicable_worlds": 60,
+    "queries": 120,
+    "applicable_queries": 120
+  },
+  "ev3+q1": {
+    "group": "held_pair",
+    "worlds": 15,
+    "applicable_worlds": 10,
+    "queries": 30,
+    "applicable_queries": 20
+  },
+  "ev5+q4": {
+    "group": "held_pair",
+    "worlds": 15,
+    "applicable_worlds": 10,
+    "queries": 30,
+    "applicable_queries": 20
+  },
+  "ev3+t1": {
+    "group": "seen_pair",
+    "worlds": 40,
+    "applicable_worlds": 40,
+    "queries": 80,
+    "applicable_queries": 80
+  },
+  "ev5+t4": {
+    "group": "seen_pair",
+    "worlds": 40,
+    "applicable_worlds": 40,
+    "queries": 80,
+    "applicable_queries": 80
+  },
+  "ev5+t1": {
+    "group": "held_pair",
+    "worlds": 10,
+    "applicable_worlds": 10,
+    "queries": 20,
+    "applicable_queries": 20
+  },
+  "ev3+t4": {
+    "group": "held_pair",
+    "worlds": 10,
+    "applicable_worlds": 10,
+    "queries": 20,
+    "applicable_queries": 20
+  }
+}

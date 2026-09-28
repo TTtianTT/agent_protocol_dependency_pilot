@@ -1,0 +1,8 @@
+{
+  "scope": "post-outcome descriptive inventory and decision commentary; no new protocol or inferential test",
+  "recorded_at": 1790584301.774862,
+  "sha256": {
+    "describe_evidence.py": "a45670234d700c90bc98d5840d1e960da747d6c3c6c74c0c40c4153e1af3a284",
+    "DECISION.md": "e703a2f5870664bbeeb51cfd47656d3850938470563992cb2cd2fa9db6049aa1"
+  }
+}

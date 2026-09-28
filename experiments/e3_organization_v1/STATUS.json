@@ -1,0 +1,56 @@
+{
+  "status": "complete",
+  "worlds": 100,
+  "queries": 200,
+  "conditions": 1000,
+  "usage": {
+    "requests": 1162,
+    "generated_tokens": 77122,
+    "gpu_seconds": 490,
+    "gpu_seconds_engine": 479.23207807540894,
+    "accounting": "Slurm 1715=108s,1716=382s,one GPU each"
+  },
+  "primary": {
+    "changed": "P3",
+    "base": "P2",
+    "demand": 1,
+    "stratum": "all",
+    "metric": "joint_success",
+    "n": 100,
+    "worlds": 100,
+    "estimate": -0.02,
+    "ci_low": -0.09,
+    "ci_high": 0.05,
+    "increases": 6,
+    "decreases": 8,
+    "exact_mcnemar_p": 0.79052734375,
+    "primary": true
+  },
+  "decision": "P2/P3相对P1均有正向点估计，但分组独立收益须以主区间为准；若跨零，则与顺序解释相容，不能声称等效或独立分组收益。",
+  "audit": {
+    "passed": true,
+    "split": "formal",
+    "planned_conditions": 1000,
+    "completed_conditions": 1000,
+    "coverage": 1.0,
+    "worlds": 100,
+    "queries": 200,
+    "actual_calls": 1118,
+    "role_calls": {
+      "A": 100,
+      "B": 100,
+      "C": 100,
+      "D": 818
+    },
+    "parse_failures": 0,
+    "length_stops": 0,
+    "max_input_tokens": 1700,
+    "max_output_tokens": 231,
+    "first_request_time": 1790583779.135211,
+    "freeze_time": 1790583449.3240602,
+    "execution_hash": "7ff5685f5d43838b10f483c0ee4b655068020f50538c1b12e4e216e7f0fd5e62",
+    "exact_flatten_equivalence": true,
+    "unchanged_direct_edges": true,
+    "no_hidden_context": true
+  }
+}

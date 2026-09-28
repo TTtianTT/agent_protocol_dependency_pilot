@@ -1,0 +1,16 @@
+{
+  "changed": "P3",
+  "base": "P2",
+  "demand": 1,
+  "stratum": "all",
+  "metric": "joint_success",
+  "n": 100,
+  "worlds": 100,
+  "estimate": -0.02,
+  "ci_low": -0.09,
+  "ci_high": 0.05,
+  "increases": 6,
+  "decreases": 8,
+  "exact_mcnemar_p": 0.79052734375,
+  "primary": true
+}

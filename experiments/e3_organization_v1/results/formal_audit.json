@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "split": "formal",
+  "planned_conditions": 1000,
+  "completed_conditions": 1000,
+  "coverage": 1.0,
+  "worlds": 100,
+  "queries": 200,
+  "actual_calls": 1118,
+  "role_calls": {
+    "A": 100,
+    "B": 100,
+    "C": 100,
+    "D": 818
+  },
+  "parse_failures": 0,
+  "length_stops": 0,
+  "max_input_tokens": 1700,
+  "max_output_tokens": 231,
+  "first_request_time": 1790583779.135211,
+  "freeze_time": 1790583449.3240602,
+  "execution_hash": "7ff5685f5d43838b10f483c0ee4b655068020f50538c1b12e4e216e7f0fd5e62",
+  "exact_flatten_equivalence": true,
+  "unchanged_direct_edges": true,
+  "no_hidden_context": true
+}

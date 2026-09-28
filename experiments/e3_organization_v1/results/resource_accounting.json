@@ -1,0 +1,22 @@
+{
+  "recorded_at": 1790584073.7467098,
+  "jobs": [
+    {
+      "job_id": 1715,
+      "state": "COMPLETED",
+      "gpu_count": 1,
+      "elapsed_seconds": 108
+    },
+    {
+      "job_id": 1716,
+      "state": "COMPLETED",
+      "gpu_count": 1,
+      "elapsed_seconds": 382
+    }
+  ],
+  "gpu_seconds": 490,
+  "requests": 1162,
+  "generated_tokens": 77122,
+  "engine_gpu_seconds": 479.23207807540894,
+  "budget_exceeded": false
+}

@@ -1,0 +1,22 @@
+{
+  "python": "3.12.3 (main, Nov  6 2024, 18:32:19) [GCC 13.2.0]",
+  "versions": {
+    "torch": "2.11.0+cu128",
+    "transformers": "5.16.1",
+    "vllm": "0.25.1+cu129",
+    "numpy": "2.3.5",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2",
+    "jsonschema": "4.26.0"
+  },
+  "native_sha256": {
+    "run.py": "c887467b4403b4fc420df7d27c0b9e4a08892b538822e02bfa1a66c3d49b3ccd",
+    "analyze.py": "ba68048b8c0c9732d39a274fc504aeefd1f8769841a548759ade368e2c2a92a5",
+    "SPEC.md": "c57ba3896371a3cfc87f6d2ab7f2ece6138313e7e10dd48c54b65b0f8d8cde01",
+    "config.json": "e4fa1bbc3b093020957878cd9ed843f5d83b3b75a5b3328adc291981157ce913",
+    "freeze.json": "ac4ba5f9e0dd9e72540db6c0f1812fdbf16d6c3682793dfca26d4fbab46b98b9"
+  },
+  "model_identity_reference": "configs/model_identity.json",
+  "formal_job": 1716,
+  "smoke_job": 1715
+}

@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "formal_worlds": 50,
+  "smoke_worlds": 4,
+  "formal_conditions": 1400,
+  "conditions_per_query": 14,
+  "execution_hash": "5d02fc6796f6bc5c98ef7fa33d1c806218167509f99246841f70c6bdf6a9c564"
+}

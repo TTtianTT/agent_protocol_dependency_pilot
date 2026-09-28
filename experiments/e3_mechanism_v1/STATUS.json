@@ -1,0 +1,56 @@
+{
+  "status": "complete",
+  "worlds": 50,
+  "queries": 100,
+  "conditions": 1400,
+  "formal_actual_calls": 1522,
+  "usage": {
+    "requests": 1646,
+    "generated_tokens": 76342,
+    "gpu_seconds": 409,
+    "gpu_seconds_engine": 399.6255261898041,
+    "accounting": "Slurm 1713=104s;1714=305s;each one GPU"
+  },
+  "primary": [
+    {
+      "test": "original_vs_no_e3",
+      "estimate": 0.13,
+      "ci_low": 0.01,
+      "ci_high": 0.25,
+      "p": 0.03719256148770246,
+      "n": 100,
+      "worlds": 50,
+      "p_holm": 0.11157768446310738
+    },
+    {
+      "test": "swap_answer_vs_original",
+      "estimate": 0.05,
+      "ci_low": -0.05,
+      "ci_high": 0.15,
+      "p": 0.39892021595680865,
+      "n": 100,
+      "worlds": 50,
+      "p_holm": 0.7978404319136173
+    },
+    {
+      "test": "swap_evidence_vs_original",
+      "estimate": 0.0,
+      "ci_low": -0.14,
+      "ci_high": 0.14,
+      "p": 1.0,
+      "n": 100,
+      "worlds": 50,
+      "p_holm": 1
+    },
+    {
+      "test": "J_required_minus_optional",
+      "estimate": 0.32,
+      "ci_low": 0.12,
+      "ci_high": 0.54,
+      "p": 0.004399120175964807,
+      "n": 50,
+      "worlds": 50,
+      "p_holm": 0.01759648070385923
+    }
+  ]
+}

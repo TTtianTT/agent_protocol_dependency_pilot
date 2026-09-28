@@ -1,0 +1,4 @@
+component,estimate,ci_low,ci_high,p,n,worlds
+joint_demand_interaction,0.32,0.12,0.54,0.004399120175964807,50,50
+answer_demand_interaction,0.02,-0.06,0.1,0.8148370325934813,50,50
+citation_component,0.3,0.12,0.5,0.005198960207958408,50,50

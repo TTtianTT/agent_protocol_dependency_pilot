@@ -1,0 +1,18 @@
+{
+  "slurm_jobs": {
+    "1713": {
+      "state": "COMPLETED",
+      "gpu_seconds": 104
+    },
+    "1714": {
+      "state": "COMPLETED",
+      "gpu_seconds": 305
+    }
+  },
+  "total_gpu_seconds": 409,
+  "gpu_hours": 0.11361111111111111,
+  "requests": 1646,
+  "generated_tokens": 76342,
+  "previous_engine_seconds": 399.6255261898041,
+  "budget_exceeded": false
+}

@@ -1,0 +1,8 @@
+condition,n,answer_accuracy,joint_success,required_answer_correct,required_joint_correct,required_correct_answer_but_incomplete_citations
+original,100,0.68,0.47,34,13,21
+original_without_answer,100,0.87,0.59,43,15,28
+original_without_evidence,100,0.63,0.48,31,16,15
+no_e3,100,0.71,0.6,34,23,11
+natural,100,0.59,0.43,30,14,16
+natural_without_answer,100,0.73,0.45,37,9,28
+natural_without_evidence,100,0.57,0.45,28,16,12

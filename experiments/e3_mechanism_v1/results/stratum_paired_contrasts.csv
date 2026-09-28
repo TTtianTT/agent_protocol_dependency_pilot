@@ -1,0 +1,13 @@
+stratum,changed,base,estimate,ci_low,ci_high,p,n,worlds
+unique_names,original,no_e3,0.24,0.08,0.4,0.005198960207958408,50,25
+unique_names,swap_answer,original,0.12,-0.04,0.28,0.16736652669466107,50,25
+unique_names,swap_evidence,original,-0.04,-0.24,0.16,0.7784443111377725,50,25
+unique_names,natural,original,-0.14,-0.32,0.02,0.1341731653669266,50,25
+unique_names,natural_without_answer,natural,0.06,-0.08,0.2,0.471505698860228,50,25
+unique_names,natural_without_evidence,natural,-0.04,-0.24,0.16,0.759248150369926,50,25
+shared_names,original,no_e3,0.02,-0.14,0.18,0.9038192361527695,50,25
+shared_names,swap_answer,original,-0.02,-0.14,0.1,0.8828234353129374,50,25
+shared_names,swap_evidence,original,0.04,-0.14,0.22,0.7554489102179565,50,25
+shared_names,natural,original,0.22,0.02,0.42,0.033993201359728054,50,25
+shared_names,natural_without_answer,natural,-0.1,-0.26,0.06,0.2535492901419716,50,25
+shared_names,natural_without_evidence,natural,0.0,-0.14,0.14,1.0,50,25

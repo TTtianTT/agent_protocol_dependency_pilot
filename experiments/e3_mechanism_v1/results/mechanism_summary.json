@@ -1,0 +1,181 @@
+{
+  "conditions": 1400,
+  "worlds": 50,
+  "direct_sufficient_worlds": 50,
+  "answer_components": [
+    {
+      "condition": "original",
+      "n": 100,
+      "answer_accuracy": 0.68,
+      "joint_success": 0.47,
+      "required_answer_correct": 34,
+      "required_joint_correct": 13,
+      "required_correct_answer_but_incomplete_citations": 21
+    },
+    {
+      "condition": "original_without_answer",
+      "n": 100,
+      "answer_accuracy": 0.87,
+      "joint_success": 0.59,
+      "required_answer_correct": 43,
+      "required_joint_correct": 15,
+      "required_correct_answer_but_incomplete_citations": 28
+    },
+    {
+      "condition": "original_without_evidence",
+      "n": 100,
+      "answer_accuracy": 0.63,
+      "joint_success": 0.48,
+      "required_answer_correct": 31,
+      "required_joint_correct": 16,
+      "required_correct_answer_but_incomplete_citations": 15
+    },
+    {
+      "condition": "no_e3",
+      "n": 100,
+      "answer_accuracy": 0.71,
+      "joint_success": 0.6,
+      "required_answer_correct": 34,
+      "required_joint_correct": 23,
+      "required_correct_answer_but_incomplete_citations": 11
+    },
+    {
+      "condition": "natural",
+      "n": 100,
+      "answer_accuracy": 0.59,
+      "joint_success": 0.43,
+      "required_answer_correct": 30,
+      "required_joint_correct": 14,
+      "required_correct_answer_but_incomplete_citations": 16
+    },
+    {
+      "condition": "natural_without_answer",
+      "n": 100,
+      "answer_accuracy": 0.73,
+      "joint_success": 0.45,
+      "required_answer_correct": 37,
+      "required_joint_correct": 9,
+      "required_correct_answer_but_incomplete_citations": 28
+    },
+    {
+      "condition": "natural_without_evidence",
+      "n": 100,
+      "answer_accuracy": 0.57,
+      "joint_success": 0.45,
+      "required_answer_correct": 28,
+      "required_joint_correct": 16,
+      "required_correct_answer_but_incomplete_citations": 12
+    }
+  ],
+  "answer_ablation": [
+    {
+      "changed": "original_without_answer",
+      "base": "original",
+      "endpoint": "answer_accuracy_gain",
+      "scope": "exploratory paired descriptive endpoint",
+      "estimate": 0.19,
+      "ci_low": 0.08,
+      "ci_high": 0.31,
+      "p": 0.0013997200559888023,
+      "n": 100,
+      "worlds": 50
+    },
+    {
+      "changed": "original_without_evidence",
+      "base": "original",
+      "endpoint": "answer_accuracy_gain",
+      "scope": "exploratory paired descriptive endpoint",
+      "estimate": -0.05,
+      "ci_low": -0.14,
+      "ci_high": 0.03,
+      "p": 0.27814437112577484,
+      "n": 100,
+      "worlds": 50
+    },
+    {
+      "changed": "no_e3",
+      "base": "original",
+      "endpoint": "answer_accuracy_gain",
+      "scope": "exploratory paired descriptive endpoint",
+      "estimate": 0.03,
+      "ci_low": -0.09,
+      "ci_high": 0.16,
+      "p": 0.6934613077384523,
+      "n": 100,
+      "worlds": 50
+    },
+    {
+      "changed": "natural_without_answer",
+      "base": "natural",
+      "endpoint": "answer_accuracy_gain",
+      "scope": "exploratory paired descriptive endpoint",
+      "estimate": 0.14,
+      "ci_low": 0.04,
+      "ci_high": 0.25,
+      "p": 0.011797640471905619,
+      "n": 100,
+      "worlds": 50
+    },
+    {
+      "changed": "natural_without_evidence",
+      "base": "natural",
+      "endpoint": "answer_accuracy_gain",
+      "scope": "exploratory paired descriptive endpoint",
+      "estimate": -0.02,
+      "ci_low": -0.13,
+      "ci_high": 0.09,
+      "p": 0.7786442711457708,
+      "n": 100,
+      "worlds": 50
+    }
+  ],
+  "interaction_decomposition": [
+    {
+      "component": "joint_demand_interaction",
+      "estimate": 0.32,
+      "ci_low": 0.12,
+      "ci_high": 0.54,
+      "p": 0.004399120175964807,
+      "n": 50,
+      "worlds": 50
+    },
+    {
+      "component": "answer_demand_interaction",
+      "estimate": 0.02,
+      "ci_low": -0.06,
+      "ci_high": 0.1,
+      "p": 0.8148370325934813,
+      "n": 50,
+      "worlds": 50
+    },
+    {
+      "component": "citation_component",
+      "estimate": 0.3,
+      "ci_low": 0.12,
+      "ci_high": 0.5,
+      "p": 0.005198960207958408,
+      "n": 50,
+      "worlds": 50
+    }
+  ],
+  "structurally_redundant_worlds": 26,
+  "resource": {
+    "slurm_jobs": {
+      "1713": {
+        "state": "COMPLETED",
+        "gpu_seconds": 104
+      },
+      "1714": {
+        "state": "COMPLETED",
+        "gpu_seconds": 305
+      }
+    },
+    "total_gpu_seconds": 409,
+    "gpu_hours": 0.11361111111111111,
+    "requests": 1646,
+    "generated_tokens": 76342,
+    "previous_engine_seconds": 399.6255261898041,
+    "budget_exceeded": false
+  },
+  "interpretation_scope": "post-hoc descriptive, all preregistered primary tests preserved"
+}

@@ -1,0 +1,22 @@
+{
+  "time": 1790579950.2407904,
+  "execution_hash": "5d02fc6796f6bc5c98ef7fa33d1c806218167509f99246841f70c6bdf6a9c564",
+  "parent_execution_hash": "0cff181f00940ac1ded52390b4d1640a6e7da57459973a2da15ec2249d31fd53",
+  "model_hash": "a77577d5631ab819026fc32ffad4916362c592ccdb4c7b6219e6e9f8914e9aa2",
+  "files": {
+    "experiments/e3_mechanism_v1/data/worlds.jsonl": "c2afbe8a48a44ce4fc81afbceb3485f6429e3329c573d5e4a7ed5c86e95e5442",
+    "experiments/e3_mechanism_v1/data/gold.jsonl": "13de0d59ea53311d5f6c32b568d40a0aab43c0541cce7f474be531edb6da3507",
+    "experiments/e3_mechanism_v1/data/queries.jsonl": "81133df7f1acc50780a06b2a1f2b829b3af2a773115be20dbb58447dc7c9dcfc",
+    "experiments/e3_mechanism_v1/data/plan.jsonl": "117e68cccd04d6aecfc00d50f42f6fbc3af6cd4ead08b9d648e7d96ba4da55c9",
+    "experiments/e3_mechanism_v1/SPEC.md": "3f54db1714bea8609c010af367acd756922ea512b4b4777e99ff6b0adeca82b4",
+    "experiments/e3_mechanism_v1/config.json": "b51a161e4fd66b377cae09c33506ca1d50174d29c99745bad8fbcb34ce29fc72",
+    "configs/pilot.yaml": "22e99f073f795d57fdc2dda8120240fd5e69b2e7e1ee78ff6245854b27dc9522",
+    "prompts/A.txt": "f0006f354c91aad4ce5836c238f2e2c5d8ed135f9f6b0d0a4766f0030f866bda",
+    "prompts/C.txt": "625d91b75675f8e572a821815ffdf5c32583695996a3e573a84cf0acbfe583c0",
+    "prompts/D.txt": "1b5cd6780e22b93730e50ef5e6b0ce97c82a456e274642bdb616c24759b26c86",
+    "prompts/B.txt": "f0006f354c91aad4ce5836c238f2e2c5d8ed135f9f6b0d0a4766f0030f866bda"
+  },
+  "formal_conditions": 1400,
+  "request_upper_bound": 1728,
+  "question_only_demand_change": true
+}

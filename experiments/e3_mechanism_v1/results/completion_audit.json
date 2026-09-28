@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "worlds": 50,
+  "queries": 100,
+  "conditions": 1400,
+  "formal_actual_calls": 1522,
+  "matched_payload_demand_pairs": 700,
+  "direct_evidence_invariant": true,
+  "no_hidden_context": true,
+  "source_hash": "5d02fc6796f6bc5c98ef7fa33d1c806218167509f99246841f70c6bdf6a9c564",
+  "freeze_time": 1790579950.2407904,
+  "first_formal_inference_time": 1790580303.2897792,
+  "parse_failures": 0,
+  "length_stops": 0
+}

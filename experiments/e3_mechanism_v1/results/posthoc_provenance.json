@@ -1,0 +1,8 @@
+{
+  "scope": "post-outcome descriptive interpretation and reporting wrapper; not preregistered",
+  "recorded_at": "2026-09-28T07:36:59.337553+00:00",
+  "sha256": {
+    "interpret.py": "f79a16173a115c5d8fc664a42c07dfdbdd6ed2cb38b66f906ae465eb991a8620",
+    "restat.sh": "ccdcfa08d46b711c42cb943106736d992aebb91598d8352ca99c6a1ebf589143"
+  }
+}

@@ -1,0 +1,5 @@
+condition,n,optional_answer_accuracy,required_answer_accuracy,optional_joint,required_joint,optional_response_scored_as_required,required_response_scored_as_optional,same_D_output,optional_insufficient,required_insufficient
+original,50,0.68,0.68,0.68,0.26,0.08,0.68,0.72,0.0,0.0
+original_without_evidence,50,0.64,0.62,0.64,0.32,0.24,0.62,0.74,0.0,0.0
+drop_e5,50,0.52,0.52,0.52,0.42,0.22,0.52,0.7,0.0,0.0
+drop_e3_evidence_and_e5,50,0.32,0.28,0.32,0.0,0.0,0.28,0.84,0.0,0.0
